@@ -9,6 +9,7 @@
 
 - Login or create an account on [Cloudflare](https://www.cloudflare.com/)
 - Add your domain and create a simple DNS `A Type` (No proxied) record pointing to your IP. https://developers.cloudflare.com/dns/manage-dns-records/how-to/create-zone-apex/
+![2024-11-03_11-49](https://github.com/user-attachments/assets/97648c8e-bac1-42f6-850e-ce4ea73722c7)
 
 **An API Token is required**
 
@@ -30,3 +31,4 @@ You can make an executable for a Linux machine with `make build` and use it to c
 ## View DNS record changes
 
 You can visit `localhost:3003/records/` to check on IP changes. Default username/password is admin/admin. You can change the password to your own needs in the environment variables.
+![2024-11-03_11-43](https://github.com/user-attachments/assets/894d5b8e-6a25-4598-8deb-0acd5b8bbd4e)
